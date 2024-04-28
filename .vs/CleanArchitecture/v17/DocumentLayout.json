@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\stand\\source\\repos\\CleanArchitecture\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E4E871FE-AD45-4C90-A1B2-05EBED441F6B}|CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj|c:\\users\\stand\\source\\repos\\cleanarchitecture\\cleanarchitecture.domain\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4E871FE-AD45-4C90-A1B2-05EBED441F6B}|CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj|solutionrelative:cleanarchitecture.domain\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4E871FE-AD45-4C90-A1B2-05EBED441F6B}|CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj|c:\\users\\stand\\source\\repos\\cleanarchitecture\\cleanarchitecture.domain\\interfaces\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4E871FE-AD45-4C90-A1B2-05EBED441F6B}|CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj|solutionrelative:cleanarchitecture.domain\\interfaces\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4E871FE-AD45-4C90-A1B2-05EBED441F6B}|CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj|c:\\users\\stand\\source\\repos\\cleanarchitecture\\cleanarchitecture.domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4E871FE-AD45-4C90-A1B2-05EBED441F6B}|CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj|solutionrelative:cleanarchitecture.domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\stand\\source\\repos\\CleanArchitecture\\CleanArchitecture.Domain\\Interfaces\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Domain\\Interfaces\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\stand\\source\\repos\\CleanArchitecture\\CleanArchitecture.Domain\\Interfaces\\IUnitOfWork.cs",
+              "RelativeToolTip": "CleanArchitecture.Domain\\Interfaces\\IUnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T23:24:59.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\stand\\source\\repos\\CleanArchitecture\\CleanArchitecture.Domain\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Domain\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\stand\\source\\repos\\CleanArchitecture\\CleanArchitecture.Domain\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "CleanArchitecture.Domain\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T23:23:13.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IBaseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\stand\\source\\repos\\CleanArchitecture\\CleanArchitecture.Domain\\Interfaces\\IBaseRepository.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Domain\\Interfaces\\IBaseRepository.cs",
+              "ToolTip": "C:\\Users\\stand\\source\\repos\\CleanArchitecture\\CleanArchitecture.Domain\\Interfaces\\IBaseRepository.cs",
+              "RelativeToolTip": "CleanArchitecture.Domain\\Interfaces\\IBaseRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T22:59:04.373Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
