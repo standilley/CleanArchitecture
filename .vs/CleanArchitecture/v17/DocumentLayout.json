@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\stand\\source\\repos\\CleanArchitecture\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C96F53B5-374F-428E-9E03-D3BADA38A1F4}|CleanArchitecture.Persistence\\CleanArchitecture.Persistence.csproj|c:\\users\\stand\\source\\repos\\cleanarchitecture\\cleanarchitecture.persistence\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C96F53B5-374F-428E-9E03-D3BADA38A1F4}|CleanArchitecture.Persistence\\CleanArchitecture.Persistence.csproj|solutionrelative:cleanarchitecture.persistence\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9816ED52-C531-4F8F-A5E2-54062F1F8CC9}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|c:\\users\\stand\\source\\repos\\cleanarchitecture\\cleanarchitecture.application\\usecases\\createuser\\createuserresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9816ED52-C531-4F8F-A5E2-54062F1F8CC9}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|solutionrelative:cleanarchitecture.application\\usecases\\createuser\\createuserresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9816ED52-C531-4F8F-A5E2-54062F1F8CC9}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|c:\\users\\stand\\source\\repos\\cleanarchitecture\\cleanarchitecture.application\\usecases\\createuser\\createuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9816ED52-C531-4F8F-A5E2-54062F1F8CC9}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|solutionrelative:cleanarchitecture.application\\usecases\\createuser\\createuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9816ED52-C531-4F8F-A5E2-54062F1F8CC9}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|c:\\users\\stand\\source\\repos\\cleanarchitecture\\cleanarchitecture.application\\usecases\\createuser\\createusermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9816ED52-C531-4F8F-A5E2-54062F1F8CC9}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|solutionrelative:cleanarchitecture.application\\usecases\\createuser\\createusermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9816ED52-C531-4F8F-A5E2-54062F1F8CC9}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|c:\\users\\stand\\source\\repos\\cleanarchitecture\\cleanarchitecture.application\\usecases\\createuser\\createuservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9816ED52-C531-4F8F-A5E2-54062F1F8CC9}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|solutionrelative:cleanarchitecture.application\\usecases\\createuser\\createuservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9816ED52-C531-4F8F-A5E2-54062F1F8CC9}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|c:\\users\\stand\\source\\repos\\cleanarchitecture\\cleanarchitecture.application\\usecases\\createuser\\createuserhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9816ED52-C531-4F8F-A5E2-54062F1F8CC9}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|solutionrelative:cleanarchitecture.application\\usecases\\createuser\\createuserhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ServiceExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\stand\\source\\repos\\CleanArchitecture\\CleanArchitecture.Persistence\\ServiceExtensions.cs",
-              "RelativeDocumentMoniker": "CleanArchitecture.Persistence\\ServiceExtensions.cs",
-              "ToolTip": "C:\\Users\\stand\\source\\repos\\CleanArchitecture\\CleanArchitecture.Persistence\\ServiceExtensions.cs",
-              "RelativeToolTip": "CleanArchitecture.Persistence\\ServiceExtensions.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "DocumentIndex": 4,
+              "Title": "CreateUserHandler.cs",
+              "DocumentMoniker": "C:\\Users\\stand\\source\\repos\\CleanArchitecture\\CleanArchitecture.Application\\UseCases\\CreateUser\\CreateUserHandler.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Application\\UseCases\\CreateUser\\CreateUserHandler.cs",
+              "ToolTip": "C:\\Users\\stand\\source\\repos\\CleanArchitecture\\CleanArchitecture.Application\\UseCases\\CreateUser\\CreateUserHandler.cs",
+              "RelativeToolTip": "CleanArchitecture.Application\\UseCases\\CreateUser\\CreateUserHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T18:01:24.819Z",
+              "WhenOpened": "2024-05-09T03:05:23.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateUserValidator.cs",
+              "DocumentMoniker": "C:\\Users\\stand\\source\\repos\\CleanArchitecture\\CleanArchitecture.Application\\UseCases\\CreateUser\\CreateUserValidator.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Application\\UseCases\\CreateUser\\CreateUserValidator.cs",
+              "ToolTip": "C:\\Users\\stand\\source\\repos\\CleanArchitecture\\CleanArchitecture.Application\\UseCases\\CreateUser\\CreateUserValidator.cs",
+              "RelativeToolTip": "CleanArchitecture.Application\\UseCases\\CreateUser\\CreateUserValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T02:59:54.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateUserMapper.cs",
+              "DocumentMoniker": "C:\\Users\\stand\\source\\repos\\CleanArchitecture\\CleanArchitecture.Application\\UseCases\\CreateUser\\CreateUserMapper.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Application\\UseCases\\CreateUser\\CreateUserMapper.cs",
+              "ToolTip": "C:\\Users\\stand\\source\\repos\\CleanArchitecture\\CleanArchitecture.Application\\UseCases\\CreateUser\\CreateUserMapper.cs",
+              "RelativeToolTip": "CleanArchitecture.Application\\UseCases\\CreateUser\\CreateUserMapper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T02:55:31.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateUserRequest.cs",
+              "DocumentMoniker": "C:\\Users\\stand\\source\\repos\\CleanArchitecture\\CleanArchitecture.Application\\UseCases\\CreateUser\\CreateUserRequest.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Application\\UseCases\\CreateUser\\CreateUserRequest.cs",
+              "ToolTip": "C:\\Users\\stand\\source\\repos\\CleanArchitecture\\CleanArchitecture.Application\\UseCases\\CreateUser\\CreateUserRequest.cs",
+              "RelativeToolTip": "CleanArchitecture.Application\\UseCases\\CreateUser\\CreateUserRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T02:51:15.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreateUserResponse.cs",
+              "DocumentMoniker": "C:\\Users\\stand\\source\\repos\\CleanArchitecture\\CleanArchitecture.Application\\UseCases\\CreateUser\\CreateUserResponse.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Application\\UseCases\\CreateUser\\CreateUserResponse.cs",
+              "ToolTip": "C:\\Users\\stand\\source\\repos\\CleanArchitecture\\CleanArchitecture.Application\\UseCases\\CreateUser\\CreateUserResponse.cs",
+              "RelativeToolTip": "CleanArchitecture.Application\\UseCases\\CreateUser\\CreateUserResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T02:48:52.578Z",
               "EditorCaption": ""
             }
           ]
