@@ -1,0 +1,175 @@
+# Clean Architecture – ASP.NET Core (.NET 8)
+
+Este projeto é uma implementação prática do padrão **Clean Architecture** utilizando **ASP.NET Core (.NET 8)**.  
+O objetivo é demonstrar uma arquitetura desacoplada, organizada e de fácil manutenção, separando claramente regras de negócio, casos de uso, infraestrutura e interfaces de entrada.
+
+---
+
+## 🏗️ Estrutura da Solução
+
+A solução está organizada em múltiplos projetos, cada um com uma responsabilidade específica:
+
+CleanArchitecture
+│
+├── CleanArchitecture.API
+├── CleanArchitecture.Application
+├── CleanArchitecture.Domain
+├── CleanArchitecture.Persistence
+└── CleanArchitecture.Tests
+
+
+---
+
+## 📦 CleanArchitecture.API
+
+Camada responsável por expor a aplicação via **API REST**.
+
+**Responsabilidades:**
+- Controllers
+- Configuração da aplicação
+- Injeção de dependências
+- Middlewares
+
+**Estrutura:**
+
+CleanArchitecture.API
+├── Controllers
+├── Extensions
+├── Program.cs
+├── appsettings.json
+└── appsettings.Development.json
+
+
+---
+
+## 📦 CleanArchitecture.Application
+
+Camada de **casos de uso da aplicação**.
+
+**Responsabilidades:**
+- Orquestrar regras de negócio
+- Implementar casos de uso
+- Conter serviços de aplicação
+- Aplicar comportamentos compartilhados
+
+**Estrutura:**
+
+CleanArchitecture.Application
+├── Services
+├── UseCases
+└── Shared
+└── Behavior
+
+---
+
+## 📦 CleanArchitecture.Domain
+
+Camada central do sistema, contendo apenas **regras de negócio puras**.
+
+✅ Não depende de nenhuma outra camada.
+
+**Responsabilidades:**
+- Entidades
+- Interfaces (contratos)
+
+**Estrutura:**
+
+CleanArchitecture.Domain
+├── Entities
+└── Interfaces
+
+
+---
+
+## 📦 CleanArchitecture.Persistence
+
+Camada responsável pela **infraestrutura e persistência de dados**.
+
+**Responsabilidades:**
+- Implementação de repositórios
+- Configuração do banco de dados
+- Integração com Entity Framework (ou outro ORM)
+
+**Estrutura:**
+
+CleanArchitecture.Persistence
+├── Context
+├── Repositories
+└── ServiceExtensions.cs
+
+
+---
+
+## 📦 CleanArchitecture.Tests
+
+Projeto destinado aos **testes automatizados**.
+
+**Responsabilidades:**
+- Testes unitários
+- Testes de casos de uso
+- Garantia da integridade das regras de negócio
+
+CleanArchitecture.Tests
+
+
+---
+
+## 🔄 Fluxo de Dependências
+
+O fluxo de dependência segue rigorosamente o padrão da Clean Architecture:
+
+API
+↓
+Application
+↓
+Domain
+↑
+Persistence
+
+
+- **Domain** não depende de ninguém  
+- **Application** depende apenas do Domain  
+- **Persistence** depende do Domain  
+- **API** depende de Application e Persistence  
+
+---
+
+## 🚀 Como Executar o Projeto
+
+### Pré-requisitos
+- .NET SDK 8.0 ou superior
+
+### Passos
+
+1. Clone o repositório:
+```bash
+git clone https://github.com/standilley/CleanArchitecture.git
+```
+Acesse o diretório do projeto:
+```bash
+cd CleanArchitecture
+```
+Restaure as dependências:
+```bash
+dotnet restore
+```
+Execute a aplicação:
+```bash
+dotnet run --project CleanArchitecture.API
+```
+
+A API estará disponível em https://localhost:5001 (ou conforme configuração local)
+
+✅ Benefícios da Arquitetura
+Baixo acoplamento
+Código organizado e legível
+Alta testabilidade
+Facilidade de manutenção
+Escalabilidade
+📚 Referências
+Robert C. Martin — Clean Architecture
+https://cleanarchitecture.io/
+https://learn.microsoft.com/aspnet/core/
+👤 Autor
+Standilley Oliveira Santos
+GitHub: https://github.com/standilley
