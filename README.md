@@ -33,7 +33,7 @@ Responsabilidades:
 - Injeção de dependências
 - Middlewares
 
-# Estrutura
+### Estrutura
 ```text
 CleanArchitecture.API
 ├── Controllers
@@ -51,7 +51,7 @@ Responsabilidades:
 - Conter serviços de aplicação
 - Aplicar comportamentos compartilhados
 
-# Estrutura
+### Estrutura
 ```text
 CleanArchitecture.Application
 ├── Services
@@ -67,7 +67,7 @@ Responsabilidades:
 - Entidades
 - Interfaces (contratos)
 
-# Estrutura
+### Estrutura
 ```text
 CleanArchitecture.Domain
 ├── Entities
@@ -81,7 +81,7 @@ Responsabilidades:
 - Configuração do banco de dados
 - Integração com Entity Framework (ou outro ORM)
 
-# Estrutura
+### Estrutura
 ```text
 CleanArchitecture.Persistence
 ├── Context
@@ -110,7 +110,7 @@ Domain
 Persistence
 ```
 
-# Regras:
+### Regras:
 - Domain não depende de ninguém
 - Application depende apenas do Domain
 - Persistence depende do Domain
@@ -159,5 +159,5 @@ https://localhost:5001
 - https://learn.microsoft.com/aspnet/core/
 
 👤 Autor
-# Standilley Oliveira Santos
+### Standilley Oliveira Santos
 GitHub: https://github.com/standilley
